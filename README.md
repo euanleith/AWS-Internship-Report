@@ -87,10 +87,7 @@ This system uses logs emitted by the service as the source of data. This data co
 * The schema of the data is then automatically discovered using a Glue Crawler, creating tables with the schema in Athena.
 * The data can then be accessed through direct SQL queries with Athena, or through a dashboard in Quicksight.
 
-
-
-
-![alt_text](https://github.com/euanleith/AWS-Internship-Report/blob/main/image1.png?raw=true)
+![](Design%20Diagram.png)
 
 Figure 1: Design diagram for the system
 
@@ -166,8 +163,7 @@ A mockup of the dashboard was created for a number of reasons;
 * To provide customers with an impression of the final product, to determine if any changes in the requirements should be made. 
 * To provide a clear and concise demonstration of the various features. For example, features such as filtering, and data being collated from multiple regions were clearly conveyed, as seen in figure 2
 
-![alt_text](https://github.com/euanleith/AWS-Internship-Report/blob/main/image2.png?raw=true)
-
+![](Mockup.png)
 
 Figure 2: mockup of the final dashboard, demonstrating the various features of the tool.
 
@@ -237,9 +233,7 @@ The problems with DynamoDB have already been explained; and the issue wasn’t w
 
 With these steps completed, the Athena tables were created and could now be queried, as seen in figure 3.
 
-
-![alt_text](https://github.com/euanleith/AWS-Internship-Report/blob/main/image3.png?raw=true)
-
+![](Operational%20Insights.png)
 
 Figure 3: a query being performed in Athena.
 
@@ -337,10 +331,7 @@ The tables were now being created dynamically, and queryable in Athena. The next
 
 With these changes made, the dashboard could be created with the initial use cases, as seen in figure 4.
 
-
-
-![alt_text](https://github.com/euanleith/AWS-Internship-Report/blob/main/image4.png?raw=true)
-
+![](Business%20Insights.png)
 
 Figure 4: Quicksight dashboard with initial use cases.
 
